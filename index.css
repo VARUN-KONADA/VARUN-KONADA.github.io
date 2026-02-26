@@ -1,1 +1,44 @@
-body{background-color: #6be4ff;}
+body{
+    background-color: #d7f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+.navi{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-right: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.navbar{
+    display : flex;
+  background: linear-gradient(to right, #5f7fff, #9c50ff);
+    padding: 5px;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+#logo{
+    font-family:cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 91, 202);
+    margin-right: auto;  
+    text-shadow: 3px 2px 2px #000000;
+    padding-left: 15px;
+}
+
+h1{
+    text-align: center;
+}
+ 
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
