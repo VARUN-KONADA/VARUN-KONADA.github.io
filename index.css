@@ -14,13 +14,14 @@ body{
 }
 
 .navbar .link:hover{
+
     color: rgb(209, 247, 255);
     text-shadow: 1px 2px 2px #000000;
 }
 
 .navbar{
     display : flex;
-  background: linear-gradient(to right, #5fffea, #40bcff);
+    background: linear-gradient(to right, #5fffea, #40bcff);
     padding: 5px;
     align-items: center;
     gap: 1rem;
