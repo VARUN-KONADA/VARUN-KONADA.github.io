@@ -4,13 +4,18 @@ body{
     padding: 0;
 }
 
-.navi{
+.navbar .link{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 32, 57);
     font-size: 20px;
     margin-right: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+}
+
+.navbar .link:hover{
+    color: rgb(209, 247, 255);
+    text-shadow: 1px 2px 2px #000000;
 }
 
 .navbar{
