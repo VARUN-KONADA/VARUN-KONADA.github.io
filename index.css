@@ -48,3 +48,10 @@ p{
     color: rgb(0, 0, 0);
     text-align: center;
 }
+
+a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
