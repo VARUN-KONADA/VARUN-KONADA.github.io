@@ -1,4 +1,4 @@
-body{
+#body{
     background-color: #d7f8ff;
     margin: 0;
     padding: 0;
@@ -33,13 +33,18 @@ body{
 
 }
 
-#logo{
+.offcanvas{
+    background: linear-gradient(to right, #5fffea, #40bcff);
+    padding: 10px;
+    text-align: center;
+}
+.navbar-brand{
     font-family:cursive;
     font-size: 30px;
     font-weight: bold;
     color: rgb(0, 91, 202);
     margin-right: auto;  
-    text-shadow: 3px 2px 2px #000000;
+    text-shadow: 1px 2px 2px #000000;
     padding-left: 15px;
 }
 
@@ -54,7 +59,14 @@ p{
     text-align: center;
 }
 
-a{
+.scribble-links{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.friends-links{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
     color: rgb(0, 0, 0);
